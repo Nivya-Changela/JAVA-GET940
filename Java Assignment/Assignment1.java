@@ -5,7 +5,7 @@ class ElectricityBill{
 	void calculateBill(float unitBill) {	
 		unit = unitBill;
 		if(unit<100)
-			System.out.println("Bill is : "+(unit*1.2));
+			System.out.println("Bill is : "+(unit*1.2)); //per unit Rs.1.2
 		
 		else if(unit<=300)
 			System.out.println("Bill is : "+(120+(unit-100)*2)); //for bill of units 0 to 100 = 100*1.2, above 100 unit Rs.2/unit 
